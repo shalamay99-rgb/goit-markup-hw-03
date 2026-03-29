@@ -69,7 +69,10 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.contacts {
+  margin-left: auto;
 }
 
 .header-list,
@@ -140,11 +143,17 @@ body {
 
 .team-item {
   background: #fff;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
 }
 
 .team-content {
-  padding: 32px 0;
+  padding: 32px 16px;
   text-align: center;
+}
+
+.team-text {
+  margin-top: 8px;
 }
 
 /* PORTFOLIO */
@@ -167,6 +176,10 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.portfolio-text {
+  margin-top: 8px;
 }
 
 /* FOOTER */
