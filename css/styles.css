@@ -6,11 +6,6 @@ p {
   margin: 0;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -21,24 +16,15 @@ a {
   text-decoration: none;
 }
 
-.logo .header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  text-decoration: none;
-  text-transform: uppercase;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-.logo-part {
-  color: #2e2f42;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-}
-
-.footer-part {
-  color: #fff;
+/* BODY */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 /* CONTAINER */
@@ -51,6 +37,28 @@ a {
 /* SECTION */
 .section {
   padding: 120px 0;
+}
+
+/* LOGO */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo {
+  margin-right: 76px;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 /* HEADER */
@@ -87,6 +95,9 @@ a {
   color: #fff;
   font-size: 56px;
   margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -99,12 +110,6 @@ a {
 }
 
 /* FEATURES */
-
-.features {
-  padding-top: 112px;
-  padding-bottom: 120px;
-}
-
 .features-list {
   display: flex;
   gap: 24px;
@@ -114,55 +119,38 @@ a {
   width: calc((100% - 72px) / 4);
 }
 
-.features-item-text {
-  max-width: 264px;
+.features-text {
   margin-top: 8px;
 }
 
 /* TEAM */
 .team {
   background: #f4f4fd;
-  display: block;
-}
-
-.team-section {
-  padding-bottom: 92px;
 }
 
 .team-title {
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
 }
 
 .team-item {
   background: #fff;
-  border-radius: 0 0 4px 4px;
-  overflow: hidden;
 }
 
 .team-content {
   padding: 32px 0;
   text-align: center;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 /* PORTFOLIO */
-
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  display: block;
-}
-
 .portfolio-title {
   text-align: center;
-  padding-bottom: 40px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -190,15 +178,7 @@ a {
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
-  max-height: 72px;
-  padding-top: 16px;
-}
-
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-
-.container .footer-container {
+  margin-top: 16px;
 }
 
 /* VISUALLY HIDDEN */
