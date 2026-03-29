@@ -1,4 +1,11 @@
 /* RESET */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -138,5 +145,12 @@ a {
   position: absolute;
   width: 1px;
   height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
