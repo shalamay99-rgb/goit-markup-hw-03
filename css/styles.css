@@ -145,6 +145,7 @@ body {
   background: #fff;
   border-radius: 0 0 4px 4px;
   overflow: hidden;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-content {
